@@ -24,3 +24,4 @@ C:\Users\CzajnikXD\source\repos\MediaCornerWPF\MediaCornerWPF\obj\Debug\net8.0-w
 C:\Users\CzajnikXD\source\repos\MediaCornerWPF\MediaCornerWPF\obj\Debug\net8.0-windows\MediaWindow.baml
 C:\Users\CzajnikXD\source\repos\MediaCornerWPF\MediaCornerWPF\obj\Debug\net8.0-windows\MainMenuWindow.g.cs
 C:\Users\CzajnikXD\source\repos\MediaCornerWPF\MediaCornerWPF\obj\Debug\net8.0-windows\MainMenuWindow.baml
+C:\Users\CzajnikXD\source\repos\MediaCornerWPF\MediaCornerWPF\obj\Debug\net8.0-windows\MediaCornerWPF.sourcelink.json

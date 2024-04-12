@@ -33,7 +33,7 @@ namespace MediaCornerWPF
 
                 MainMenuWindow mainMenuWindow = new MainMenuWindow();
                 mainMenuWindow.Width = 800;
-                mainMenuWindow.Height = 475; 
+                mainMenuWindow.Height = 475;
                 mainMenuWindow.Show();
                 this.Close();
             }

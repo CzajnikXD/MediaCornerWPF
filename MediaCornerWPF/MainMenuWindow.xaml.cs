@@ -23,21 +23,21 @@ namespace MediaCornerWPF
 
         private void UsersButton_Click(object sender, RoutedEventArgs e)
         {
-            // Tutaj otwieramy nowe okno dla użytkowników
+            // Obsługa okna użytkowników
             UsersWindow usersWindow = new UsersWindow();
             usersWindow.Show();
         }
 
         private void MediaButton_Click(object sender, RoutedEventArgs e)
         {
-            // Tutaj otwieramy nowe okno dla mediów
+            // Obsługa okna multimediów
             MediaWindow mediaWindow = new MediaWindow();
             mediaWindow.Show();
         }
 
         private void LogoutButton_Click(object sender, RoutedEventArgs e)
         {
-            // Tutaj dodaj kod obsługi wylogowania, np. zamykanie bieżącego okna
+            // Obsługa wylogowania
             this.Close();
         }
     }

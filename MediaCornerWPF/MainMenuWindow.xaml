@@ -48,9 +48,9 @@
                 <DropShadowEffect Color="Black" Direction="-40" ShadowDepth="4" BlurRadius="2"/>
             </TextBlock.Effect>
         </TextBlock>
-        <Button Content="Users" HorizontalAlignment="Left" Margin="110,215,0,0" VerticalAlignment="Top" Height="100" Width="100" Style="{StaticResource CustomButtonStyle}"/>
-        <Button Content="Media" HorizontalAlignment="Center" Margin="0,215,0,0" VerticalAlignment="Top" Height="100" Width="100" Style="{StaticResource CustomButtonStyle}"/>
-        <Button Content="Logout" HorizontalAlignment="Right" Margin="0,215,110,0" VerticalAlignment="Top" Height="100" Width="100" Style="{StaticResource CustomButtonStyle}"/>
+        <Button Content="Users" HorizontalAlignment="Left" Margin="110,215,0,0" VerticalAlignment="Top" Height="100" Width="100" Style="{StaticResource CustomButtonStyle}" Click="UsersButton_Click"/>
+        <Button Content="Media" HorizontalAlignment="Center" Margin="0,215,0,0" VerticalAlignment="Top" Height="100" Width="100" Style="{StaticResource CustomButtonStyle}" Click="MediaButton_Click"/>
+        <Button Content="Logout" HorizontalAlignment="Right" Margin="0,215,110,0" VerticalAlignment="Top" Height="100" Width="100" Style="{StaticResource CustomButtonStyle}" Click="LogoutButton_Click"/>
 
     </Grid>
 </Window>
