@@ -41,6 +41,25 @@ namespace MediaCornerWPF.View
         }
         private void btnLogin_Click(object sender, RoutedEventArgs e)
         {
+            string username = txtUser.Text;
+            string password = txtPassword.Password;
+
+            // Testowa walidacja logowania, bez podpiętej bazy danych
+            if (username == "admin" && password == "admin")
+            {
+                MessageBox.Show("Zalogowano pomyślnie!");
+
+                MainMenuWindow mainMenuWindow = new MainMenuWindow();
+                mainMenuWindow.Width = 800;
+                mainMenuWindow.Height = 475;
+                mainMenuWindow.Show();
+                this.Close();
+            }
+            else
+            {
+
+                MessageBox.Show("Niepoprawna nazwa użytkownika lub hasło. Spróbuj ponownie.");
+            }
         }
     }
 }

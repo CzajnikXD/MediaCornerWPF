@@ -1,4 +1,3 @@
-C:\Users\CzajnikXD\source\repos\MediaCornerWPF\MediaCornerWPF\obj\Debug\net8.0-windows\MainWindow.g.cs
 C:\Users\CzajnikXD\source\repos\MediaCornerWPF\MediaCornerWPF\obj\Debug\net8.0-windows\App.g.cs
 C:\Users\CzajnikXD\source\repos\MediaCornerWPF\MediaCornerWPF\obj\Debug\net8.0-windows\MediaCornerWPF_MarkupCompile.cache
 C:\Users\CzajnikXD\source\repos\MediaCornerWPF\MediaCornerWPF\obj\Debug\net8.0-windows\MediaCornerWPF_MarkupCompile.lref
@@ -7,7 +6,6 @@ C:\Users\CzajnikXD\source\repos\MediaCornerWPF\MediaCornerWPF\bin\Debug\net8.0-w
 C:\Users\CzajnikXD\source\repos\MediaCornerWPF\MediaCornerWPF\bin\Debug\net8.0-windows\MediaCornerWPF.runtimeconfig.json
 C:\Users\CzajnikXD\source\repos\MediaCornerWPF\MediaCornerWPF\bin\Debug\net8.0-windows\MediaCornerWPF.dll
 C:\Users\CzajnikXD\source\repos\MediaCornerWPF\MediaCornerWPF\bin\Debug\net8.0-windows\MediaCornerWPF.pdb
-C:\Users\CzajnikXD\source\repos\MediaCornerWPF\MediaCornerWPF\obj\Debug\net8.0-windows\MainWindow.baml
 C:\Users\CzajnikXD\source\repos\MediaCornerWPF\MediaCornerWPF\obj\Debug\net8.0-windows\MediaCornerWPF.g.resources
 C:\Users\CzajnikXD\source\repos\MediaCornerWPF\MediaCornerWPF\obj\Debug\net8.0-windows\MediaCornerWPF.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\CzajnikXD\source\repos\MediaCornerWPF\MediaCornerWPF\obj\Debug\net8.0-windows\MediaCornerWPF.AssemblyInfoInputs.cache
@@ -18,12 +16,6 @@ C:\Users\CzajnikXD\source\repos\MediaCornerWPF\MediaCornerWPF\obj\Debug\net8.0-w
 C:\Users\CzajnikXD\source\repos\MediaCornerWPF\MediaCornerWPF\obj\Debug\net8.0-windows\MediaCornerWPF.pdb
 C:\Users\CzajnikXD\source\repos\MediaCornerWPF\MediaCornerWPF\obj\Debug\net8.0-windows\MediaCornerWPF.genruntimeconfig.cache
 C:\Users\CzajnikXD\source\repos\MediaCornerWPF\MediaCornerWPF\obj\Debug\net8.0-windows\ref\MediaCornerWPF.dll
-C:\Users\CzajnikXD\source\repos\MediaCornerWPF\MediaCornerWPF\obj\Debug\net8.0-windows\UsersWindow.g.cs
-C:\Users\CzajnikXD\source\repos\MediaCornerWPF\MediaCornerWPF\obj\Debug\net8.0-windows\MediaWindow.g.cs
-C:\Users\CzajnikXD\source\repos\MediaCornerWPF\MediaCornerWPF\obj\Debug\net8.0-windows\UsersWindow.baml
-C:\Users\CzajnikXD\source\repos\MediaCornerWPF\MediaCornerWPF\obj\Debug\net8.0-windows\MediaWindow.baml
-C:\Users\CzajnikXD\source\repos\MediaCornerWPF\MediaCornerWPF\obj\Debug\net8.0-windows\MainMenuWindow.g.cs
-C:\Users\CzajnikXD\source\repos\MediaCornerWPF\MediaCornerWPF\obj\Debug\net8.0-windows\MainMenuWindow.baml
 C:\Users\CzajnikXD\source\repos\MediaCornerWPF\MediaCornerWPF\obj\Debug\net8.0-windows\MediaCornerWPF.sourcelink.json
 C:\Users\czajn_\source\repos\Projekt\MediaCornerWPF\MediaCornerWPF\bin\Debug\net8.0-windows\MediaCornerWPF.exe
 C:\Users\czajn_\source\repos\Projekt\MediaCornerWPF\MediaCornerWPF\bin\Debug\net8.0-windows\MediaCornerWPF.deps.json
@@ -54,3 +46,11 @@ C:\Users\czajn_\source\repos\Projekt\MediaCornerWPF\MediaCornerWPF\obj\Debug\net
 C:\Users\czajn_\source\repos\Projekt\MediaCornerWPF\MediaCornerWPF\obj\Debug\net8.0-windows\MediaCornerWPF.pdb
 C:\Users\czajn_\source\repos\Projekt\MediaCornerWPF\MediaCornerWPF\obj\Debug\net8.0-windows\MediaCornerWPF.genruntimeconfig.cache
 C:\Users\czajn_\source\repos\Projekt\MediaCornerWPF\MediaCornerWPF\obj\Debug\net8.0-windows\ref\MediaCornerWPF.dll
+C:\Users\CzajnikXD\source\repos\MediaCornerWPF\MediaCornerWPF\obj\Debug\net8.0-windows\View\LoginView.g.cs
+C:\Users\CzajnikXD\source\repos\MediaCornerWPF\MediaCornerWPF\obj\Debug\net8.0-windows\View\MainMenuWindow.g.cs
+C:\Users\CzajnikXD\source\repos\MediaCornerWPF\MediaCornerWPF\obj\Debug\net8.0-windows\View\MediaWindow.g.cs
+C:\Users\CzajnikXD\source\repos\MediaCornerWPF\MediaCornerWPF\obj\Debug\net8.0-windows\View\UsersWindow.g.cs
+C:\Users\CzajnikXD\source\repos\MediaCornerWPF\MediaCornerWPF\obj\Debug\net8.0-windows\View\LoginView.baml
+C:\Users\CzajnikXD\source\repos\MediaCornerWPF\MediaCornerWPF\obj\Debug\net8.0-windows\View\MainMenuWindow.baml
+C:\Users\CzajnikXD\source\repos\MediaCornerWPF\MediaCornerWPF\obj\Debug\net8.0-windows\View\MediaWindow.baml
+C:\Users\CzajnikXD\source\repos\MediaCornerWPF\MediaCornerWPF\obj\Debug\net8.0-windows\View\UsersWindow.baml

@@ -7,30 +7,24 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="MainWindow.xaml.cs">
+    <Compile Update="View\MainMenuWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="MainMenuWindow.xaml.cs">
+    <Compile Update="View\MediaWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="MediaWindow.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="UsersWindow.xaml.cs">
+    <Compile Update="View\UsersWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="MainWindow.xaml">
+    <Page Update="View\MainMenuWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="MainMenuWindow.xaml">
+    <Page Update="View\MediaWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="MediaWindow.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="UsersWindow.xaml">
+    <Page Update="View\UsersWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

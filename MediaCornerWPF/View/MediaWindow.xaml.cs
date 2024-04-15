@@ -12,14 +12,14 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace MediaCornerWPF
+namespace MediaCornerWPF.View
 {
     /// <summary>
-    /// Logika interakcji dla klasy UsersWindow.xaml
+    /// Logika interakcji dla klasy MediaWindow.xaml
     /// </summary>
-    public partial class UsersWindow : Window
+    public partial class MediaWindow : Window
     {
-        public UsersWindow()
+        public MediaWindow()
         {
             InitializeComponent();
         }

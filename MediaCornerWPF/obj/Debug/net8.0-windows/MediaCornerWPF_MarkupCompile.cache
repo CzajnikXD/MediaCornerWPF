@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\czajn_\source\repos\Projekt\MediaCornerWPF\MediaCornerWPF\obj\Debug\net8.0-windows\
+C:\Users\CzajnikXD\source\repos\MediaCornerWPF\MediaCornerWPF\obj\Debug\net8.0-windows\
 MediaCornerWPF
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\czajn_\source\repos\Projekt\MediaCornerWPF\MediaCornerWPF\App.xaml
-5619235615
+C:\Users\CzajnikXD\source\repos\MediaCornerWPF\MediaCornerWPF\App.xaml
+4-396341748
 
-8229131656
-1981451641563
-MainMenuWindow.xaml;MainWindow.xaml;MediaWindow.xaml;UsersWindow.xaml;View\LoginView.xaml;
+7-1047839431
+198155382431
+View\LoginView.xaml;View\MainMenuWindow.xaml;View\MediaWindow.xaml;View\UsersWindow.xaml;
 
 False
 
