@@ -8,19 +8,24 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\CzajnikXD\\.nuget\\packages\\": {}
+    "C:\\Users\\czajn_\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CzajnikXD\\source\\repos\\MediaCornerWPF\\MediaCornerWPF\\MediaCornerWPF.csproj",
+      "projectUniqueName": "C:\\Users\\czajn_\\source\\repos\\Projekt\\MediaCornerWPF\\MediaCornerWPF\\MediaCornerWPF.csproj",
       "projectName": "MediaCornerWPF",
-      "projectPath": "C:\\Users\\CzajnikXD\\source\\repos\\MediaCornerWPF\\MediaCornerWPF\\MediaCornerWPF.csproj",
-      "packagesPath": "C:\\Users\\CzajnikXD\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CzajnikXD\\source\\repos\\MediaCornerWPF\\MediaCornerWPF\\obj\\",
+      "projectPath": "C:\\Users\\czajn_\\source\\repos\\Projekt\\MediaCornerWPF\\MediaCornerWPF\\MediaCornerWPF.csproj",
+      "packagesPath": "C:\\Users\\czajn_\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\czajn_\\source\\repos\\Projekt\\MediaCornerWPF\\MediaCornerWPF\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\CzajnikXD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\czajn_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -69,7 +74,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300-preview.24203.14/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
