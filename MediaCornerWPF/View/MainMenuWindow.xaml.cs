@@ -21,6 +21,13 @@ namespace MediaCornerWPF.View
             InitializeComponent();
         }
 
+        private void Window_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (e.LeftButton == MouseButtonState.Pressed)
+                DragMove();
+        }
+
+
         private void UsersButton_Click(object sender, RoutedEventArgs e)
         {
             // Obsługa okna użytkowników

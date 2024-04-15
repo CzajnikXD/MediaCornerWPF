@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MediaCornerWPF"
         mc:Ignorable="d"
-        Title="Media Corner" Height="475" Width="800">
+        Title="Media Corner" Height="475" Width="800"
+        MouseDown="Window_MouseDown">
     <Window.Resources>
         <Style x:Key="CustomButtonStyle" TargetType="Button">
             <Setter Property="Background" Value="#FFDB44FF"/>
