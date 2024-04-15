@@ -1,0 +1,42 @@
+﻿<Window x:Class="MediaCornerWPF.View.LoginView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MediaCornerWPF.View"
+        mc:Ignorable="d"
+        Title="LoginView" Height="550" Width="800"
+        WindowStyle="None"
+        ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen"
+        Background="Transparent"
+        AllowsTransparency="True"
+        MouseDown="Window_MouseDown">
+
+    <Border CornerRadius="50">
+        <Border.Background>
+            <ImageBrush ImageSource="/Images/HomeCinema.jpg"
+                        Stretch="Fill"/>
+        </Border.Background>
+        <Border CornerRadius="50"
+            BorderThickness="5"
+                Opacity="0.88">
+            <Border.BorderBrush>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#560BAD" Offset="0"/>
+                    <GradientStop Color="#7209B7" Offset="0.25"/>
+                    <GradientStop Color="#B5179E" Offset="0.75"/>
+                    <GradientStop Color="#3F37c9" Offset="1"/>
+                </LinearGradientBrush>
+            </Border.BorderBrush>
+
+            <Border.Background>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+                    <GradientStop Color="#12086f" Offset="0"/>
+                    <GradientStop Color="#4361ee" Offset="1.15"/>
+                </LinearGradientBrush>
+            </Border.Background>
+        </Border>
+    </Border>
+
+</Window>
