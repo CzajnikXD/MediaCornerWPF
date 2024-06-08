@@ -10,21 +10,15 @@
     <Compile Update="View\MainMenuWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="View\MediaWindow.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="View\UsersWindow.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="Styles\ButtonStyles.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Styles\UIColors.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="View\MainMenuWindow.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="View\MediaWindow.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="View\UsersWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

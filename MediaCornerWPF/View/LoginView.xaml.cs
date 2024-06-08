@@ -50,14 +50,11 @@ namespace MediaCornerWPF.View
                 MessageBox.Show("Zalogowano pomyślnie!");
 
                 MainMenuWindow mainMenuWindow = new MainMenuWindow();
-                mainMenuWindow.Width = 800;
-                mainMenuWindow.Height = 475;
                 mainMenuWindow.Show();
                 this.Close();
             }
             else
             {
-
                 MessageBox.Show("Niepoprawna nazwa użytkownika lub hasło. Spróbuj ponownie.");
             }
         }
