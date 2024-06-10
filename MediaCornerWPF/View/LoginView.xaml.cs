@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MediaCornerWPF.Lib.MongoDB;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -11,6 +12,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Diagnostics;
 
 namespace MediaCornerWPF.View
 {
@@ -22,6 +24,7 @@ namespace MediaCornerWPF.View
         public LoginView()
         {
             InitializeComponent();
+            DB.InitDB();
         }
 
         private void Window_MouseDown(object sender, MouseButtonEventArgs e)
@@ -44,8 +47,12 @@ namespace MediaCornerWPF.View
             string username = txtUser.Text;
             string password = txtPassword.Password;
 
-            // Testowa walidacja logowania, bez podpiętej bazy danych
-            if (username == "admin" && password == "admin")
+            Debug.WriteLine(username);
+            Debug.WriteLine(password);
+
+            bool isAuthorized = DB.AuthorizeUser(username, password);
+
+            if (isAuthorized)
             {
                 MessageBox.Show("Zalogowano pomyślnie!");
 

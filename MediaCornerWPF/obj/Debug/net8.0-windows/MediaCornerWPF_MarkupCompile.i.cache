@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\czajn_\source\repos\Projekt\MediaCornerWPF\MediaCornerWPF\obj\Debug\net8.0-windows\
+C:\Users\igorp\Source\Repos\MediaCornerWPF\MediaCornerWPF\obj\Debug\net8.0-windows\
 MediaCornerWPF
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\czajn_\source\repos\Projekt\MediaCornerWPF\MediaCornerWPF\App.xaml
+C:\Users\igorp\Source\Repos\MediaCornerWPF\MediaCornerWPF\App.xaml
 4-511818303
 
-9-1536124609
-209-485868308
+12-1545804937
+220-1338970499
 Styles\ButtonStyles.xaml;Styles\UIColors.xaml;View\LoginView.xaml;View\MainMenuWindow.xaml;
 
 False

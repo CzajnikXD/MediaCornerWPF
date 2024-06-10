@@ -19,6 +19,9 @@
   <ItemGroup>
     <PackageReference Include="FontAwesome.Sharp" Version="6.3.0" />
     <PackageReference Include="FontAwesome.WPF" Version="4.7.0.9" />
+    <PackageReference Include="MongoDB.Bson" Version="2.25.0" />
+    <PackageReference Include="MongoDB.Driver" Version="2.25.0" />
+    <PackageReference Include="MongoDB.Driver.Core" Version="2.25.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -33,6 +36,10 @@
   <ItemGroup>
     <Resource Include="Images\homecinema.jpg" />
     <Resource Include="Images\key-icon.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Lib\API\" />
   </ItemGroup>
 
 </Project>
