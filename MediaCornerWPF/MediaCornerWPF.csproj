@@ -22,6 +22,7 @@
     <PackageReference Include="MongoDB.Bson" Version="2.25.0" />
     <PackageReference Include="MongoDB.Driver" Version="2.25.0" />
     <PackageReference Include="MongoDB.Driver.Core" Version="2.25.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
   <ItemGroup>
@@ -36,10 +37,6 @@
   <ItemGroup>
     <Resource Include="Images\homecinema.jpg" />
     <Resource Include="Images\key-icon.png" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Lib\API\" />
   </ItemGroup>
 
 </Project>

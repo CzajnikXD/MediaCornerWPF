@@ -14,15 +14,30 @@ using System.Windows.Shapes;
 using System.Runtime.InteropServices;
 using System.Runtime;
 using System.Windows.Interop;
+using System.Collections.ObjectModel;
+using MediaCornerWPF.Lib.API.Models;
+using MediaCornerWPF.Lib.API.Calls;
 
 namespace MediaCornerWPF.View
 {
     public partial class MainMenuWindow : Window
     {
+        public ObservableCollection<MovieModel> PopularMovies = new();
         public MainMenuWindow()
         {
+            DataContext = this;
             InitializeComponent();
             this.MaxHeight = SystemParameters.MaximizedPrimaryScreenHeight;
+        }
+
+        private async void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            var ll = await MovieController.GetPopular();
+
+            foreach (var item in ll)
+            {
+                PopularMovies.Add(item);
+            }
         }
 
         [DllImport("user32.dll")]

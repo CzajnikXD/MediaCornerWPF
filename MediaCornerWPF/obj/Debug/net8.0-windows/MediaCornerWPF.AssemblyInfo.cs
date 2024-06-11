@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MediaCornerWPF")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80cdb3e5a6a70c347740e20ee49a99480afc77ac")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e70c7d3844860dd3386cc1f47af2c061c60ca005")]
 [assembly: System.Reflection.AssemblyProductAttribute("MediaCornerWPF")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MediaCornerWPF")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
