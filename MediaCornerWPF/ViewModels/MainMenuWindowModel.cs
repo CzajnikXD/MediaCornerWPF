@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using System.ComponentModel;
 using FontAwesome.Sharp;
 using System.Windows.Input;
+using MediaCornerWPF.Lib.MongoDB;
+using MediaCornerWPF.Lib;
 
 namespace MediaCornerWPF.ViewModels
 {
@@ -14,6 +16,7 @@ namespace MediaCornerWPF.ViewModels
         private ViewModelBase _currentChildView;
         private string _caption;
         private IconChar _icon;
+        private string username;
 
         public ViewModelBase CurrentChildView
         {
@@ -54,6 +57,19 @@ namespace MediaCornerWPF.ViewModels
             }
         }
 
+        public string Username
+        {
+            get
+            {
+                return username;
+            }
+            set
+            {
+                username = value;
+                OnPropertyChanged(nameof(Username));
+            }
+        }
+
         //---> Commands
         public ICommand ShowHomeViewCommand { get; }
         public ICommand ShowWatchlistViewCommand { get; }
@@ -72,6 +88,12 @@ namespace MediaCornerWPF.ViewModels
 
             //Default view
             ExecuteShowHomeViewCommand(null);
+            ExecuteShowLoggedUser(null);
+        }
+
+        private void ExecuteShowLoggedUser(object obj)
+        {
+            Username = LoggedUser.Username;
         }
 
         private void ExecuteShowHomeViewCommand(object obj)

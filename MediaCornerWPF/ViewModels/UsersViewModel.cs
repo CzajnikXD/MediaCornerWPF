@@ -1,5 +1,7 @@
-﻿using System;
+﻿using Microsoft.VisualBasic.ApplicationServices;
+using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,5 +10,6 @@ namespace MediaCornerWPF.ViewModels
 {
     public class UsersViewModel : ViewModelBase
     {
+
     }
 }

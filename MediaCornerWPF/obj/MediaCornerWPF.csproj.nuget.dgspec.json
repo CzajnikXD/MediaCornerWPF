@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Private\\studia\\3 rok\\Dotnet\\MediaCornerWPF\\MediaCornerWPF\\MediaCornerWPF.csproj": {}
+    "D:\\Private\\studia\\3 rok\\Dotnet\\Kopia 2\\MediaCornerWPF\\MediaCornerWPF\\MediaCornerWPF.csproj": {}
   },
   "projects": {
-    "D:\\Private\\studia\\3 rok\\Dotnet\\MediaCornerWPF\\MediaCornerWPF\\MediaCornerWPF.csproj": {
+    "D:\\Private\\studia\\3 rok\\Dotnet\\Kopia 2\\MediaCornerWPF\\MediaCornerWPF\\MediaCornerWPF.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Private\\studia\\3 rok\\Dotnet\\MediaCornerWPF\\MediaCornerWPF\\MediaCornerWPF.csproj",
+        "projectUniqueName": "D:\\Private\\studia\\3 rok\\Dotnet\\Kopia 2\\MediaCornerWPF\\MediaCornerWPF\\MediaCornerWPF.csproj",
         "projectName": "MediaCornerWPF",
-        "projectPath": "D:\\Private\\studia\\3 rok\\Dotnet\\MediaCornerWPF\\MediaCornerWPF\\MediaCornerWPF.csproj",
+        "projectPath": "D:\\Private\\studia\\3 rok\\Dotnet\\Kopia 2\\MediaCornerWPF\\MediaCornerWPF\\MediaCornerWPF.csproj",
         "packagesPath": "C:\\Users\\czajn_\\.nuget\\packages\\",
-        "outputPath": "D:\\Private\\studia\\3 rok\\Dotnet\\MediaCornerWPF\\MediaCornerWPF\\obj\\",
+        "outputPath": "D:\\Private\\studia\\3 rok\\Dotnet\\Kopia 2\\MediaCornerWPF\\MediaCornerWPF\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

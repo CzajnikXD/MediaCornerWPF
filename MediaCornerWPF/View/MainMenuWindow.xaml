@@ -249,7 +249,7 @@
                             </Button>
 
                             <!--Text="{Binding CurrentUserAccount.DisplayName}" - Do zbindowania nazwy z bazy już-->
-                            <TextBlock Text="Username"
+                            <TextBlock Text="{Binding Username}"
                                        Foreground="{StaticResource titleColor3}"
                                        FontFamily="Montserrat"
                                        FontSize="12"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4fs6TGVIK8A=",
+  "dgSpecHash": "3e0TnUPtGSY=",
   "success": true,
-  "projectFilePath": "D:\\Private\\studia\\3 rok\\Dotnet\\MediaCornerWPF\\MediaCornerWPF\\MediaCornerWPF.csproj",
+  "projectFilePath": "D:\\Private\\studia\\3 rok\\Dotnet\\Kopia 2\\MediaCornerWPF\\MediaCornerWPF\\MediaCornerWPF.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\czajn_\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\czajn_\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
