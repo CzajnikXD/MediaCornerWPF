@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MediaCornerWPF.Lib.MongoDB.Models
 {
-    internal class WatchlistedModel
+    public class WatchlistedModel
     {
         public BsonObjectId _id { get; set; }
         public string UsersId { get; set; }

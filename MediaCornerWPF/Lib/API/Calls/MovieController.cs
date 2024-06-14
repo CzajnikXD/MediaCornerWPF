@@ -1,6 +1,7 @@
 ﻿using MediaCornerWPF.Lib.API.Models;
 using System.Net.Http;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace MediaCornerWPF.Lib.API.Calls
 {
@@ -25,7 +26,9 @@ namespace MediaCornerWPF.Lib.API.Calls
                 {
                     var result = await response.Content.ReadAsStringAsync();
 
-                    List<MovieModel> ret = JsonConvert.DeserializeObject<List<MovieModel>>(result);
+                    var movielist = JObject.Parse(result)["results"].ToString();
+
+                    List<MovieModel> ret = JsonConvert.DeserializeObject<List<MovieModel>>(movielist);
 
                     return ret;
                 }
@@ -55,7 +58,7 @@ namespace MediaCornerWPF.Lib.API.Calls
                 {
                     var result = await response.Content.ReadAsStringAsync();
 
-                    MovieModel ret = JsonConvert.DeserializeObject<MovieModel>(result);
+                    MovieModel ret = JObject.Parse(result).ToObject<MovieModel>();
 
                     return ret;
                 }

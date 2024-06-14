@@ -7,6 +7,7 @@
              xmlns:viewModel="clr-namespace:MediaCornerWPF.ViewModels"
              xmlns:fa="http://schemas.awesome.incremented/wpf/xaml/fontawesome.sharp"
              mc:Ignorable="d" 
+             Loaded="UserControl_Loaded"
              d:DesignHeight="450" d:DesignWidth="800">
 
     <Grid>
@@ -38,7 +39,7 @@
                              Margin="5,5,0,0" TextChanged="TextBox_TextChanged"></TextBox>
             </StackPanel>
             <Button Grid.Column="1"
-                            Command="{Binding MovieSearchCommand}"                            
+                            Command="{}"                            
                             Content="Search"                            
                             FontSize="12"
                             FontFamily="Montserrat"
@@ -76,7 +77,11 @@
                 Padding="10">
             <DataGrid ColumnWidth="*"
                   Background="#200F53"
-                  BorderThickness="0">
+                  BorderThickness="0"
+                  AutoGenerateColumns="False"
+                  HeadersVisibility="Column"
+                  IsReadOnly="True"
+                  ItemsSource="{Binding Movies}">
                 <DataGrid.ColumnHeaderStyle>
                     <Style TargetType="DataGridColumnHeader">
                         <Setter Property="Background" Value="Transparent"/>
@@ -87,9 +92,16 @@
                     </Style>
                 </DataGrid.ColumnHeaderStyle>
                 <DataGrid.Columns>
-                    <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Movie Title" HeaderStringFormat=""/>
-                    <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Release Date" HeaderStringFormat=""/>
-                    <DataGridTextColumn Binding="{x:Null}" ClipboardContentBinding="{x:Null}" Header="Average Rating" HeaderStringFormat=""/>
+                    <DataGridTextColumn Binding="{Binding title}" ClipboardContentBinding="{x:Null}" Header="Movie Title" HeaderStringFormat=""/>
+                    <DataGridTextColumn Binding="{Binding release_date}" ClipboardContentBinding="{x:Null}" Header="Release Date" HeaderStringFormat=""/>
+                    <DataGridTextColumn Binding="{Binding vote_average}" ClipboardContentBinding="{x:Null}" Header="Average Rating" HeaderStringFormat=""/>
+                    <DataGridTemplateColumn Header="Add to watchlist">
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button Name="btnAddToWL" Content="Add" Click="btnClick" />
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
                 </DataGrid.Columns>
             </DataGrid>
         </Border>

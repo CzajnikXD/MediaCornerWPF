@@ -8,6 +8,8 @@ using FontAwesome.Sharp;
 using System.Windows.Input;
 using MediaCornerWPF.Lib.MongoDB;
 using MediaCornerWPF.Lib;
+using MediaCornerWPF.Lib.API;
+using System.Diagnostics;
 
 namespace MediaCornerWPF.ViewModels
 {

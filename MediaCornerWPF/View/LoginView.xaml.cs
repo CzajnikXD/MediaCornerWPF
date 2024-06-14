@@ -47,9 +47,6 @@ namespace MediaCornerWPF.View
             string username = txtUser.Text;
             string password = txtPassword.Password;
 
-            Debug.WriteLine(username);
-            Debug.WriteLine(password);
-
             bool isAuthorized = DB.AuthorizeUser(username, password);
 
             if (isAuthorized)

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MediaCornerWPF.Lib.API
 {
-    internal class ApiController
+    public class ApiController
     {
         public static HttpClient? ApiClient { get; set; } = null;
 

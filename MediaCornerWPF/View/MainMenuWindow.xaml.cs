@@ -17,6 +17,8 @@ using System.Windows.Interop;
 using System.Collections.ObjectModel;
 using MediaCornerWPF.Lib.API.Models;
 using MediaCornerWPF.Lib.API.Calls;
+using MediaCornerWPF.Lib.API;
+using MediaCornerWPF.Lib.MongoDB;
 
 namespace MediaCornerWPF.View
 {
@@ -27,6 +29,8 @@ namespace MediaCornerWPF.View
         {
             DataContext = this;
             InitializeComponent();
+            DB.InitDB();
+            ApiController.InitializeClient();
             this.MaxHeight = SystemParameters.MaximizedPrimaryScreenHeight;
         }
 

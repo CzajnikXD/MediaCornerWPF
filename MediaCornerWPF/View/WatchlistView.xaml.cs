@@ -12,6 +12,12 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using MediaCornerWPF.Lib.MongoDB;
+using MediaCornerWPF.Lib;
+using MediaCornerWPF.Lib.MongoDB.Models;
+using System.Collections.ObjectModel;
+using MediaCornerWPF.Lib.API.Models;
+using MediaCornerWPF.Lib.API.Calls;
 
 namespace MediaCornerWPF.View
 {
@@ -20,9 +26,38 @@ namespace MediaCornerWPF.View
     /// </summary>
     public partial class WatchlistView : UserControl
     {
+        public ObservableCollection<MovieModel> _movies = new ObservableCollection<MovieModel>();
+        public ObservableCollection<MovieModel> Movies
+        {
+            get { return _movies; }
+            set { _movies = value; }
+        }
         public WatchlistView()
         {
             InitializeComponent();
+            DataContext = this;
+        }
+
+        public async void UserControl_Loaded(object sender, RoutedEventArgs e)
+        {
+            var watchlist = DB.GetWatchlist(LoggedUser.Id);
+
+            foreach (WatchlistedModel movie in watchlist)
+            {
+                var movieModel = await MovieController.GetMovie(movie.MovieId);
+                _movies.Add(movieModel);
+            }
+        }
+
+        public async void btnClick(object sender, RoutedEventArgs e)
+        {
+            MovieModel movieToRemove = (MovieModel)((Button)e.Source).DataContext;
+
+            DB.RemoveFromWatchlist(LoggedUser.Id, movieToRemove.id);
+
+            _movies.Remove(movieToRemove);
+
+            MessageBox.Show("Usunieto z listy!");
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)

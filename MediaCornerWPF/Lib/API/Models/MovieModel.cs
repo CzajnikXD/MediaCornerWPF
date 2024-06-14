@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace MediaCornerWPF.Lib.API.Models
 {
+    /// <summary>
+    /// Model dla filmu
+    /// </summary>
     public class MovieModel
     {
         public int id { get; set; }
