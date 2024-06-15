@@ -2,4 +2,4 @@ Repozytorium projektowe aplikacja do monitorowania obejrzanych multimediów w WP
 
 **Dane dostępowe:**\
 Login: admin\
-Hasło: zaq123wsx\
+Hasło: zaq123wsx
