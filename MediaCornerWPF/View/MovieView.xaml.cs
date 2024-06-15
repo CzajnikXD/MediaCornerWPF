@@ -21,10 +21,13 @@ namespace MediaCornerWPF.View
             get { return _movies; }
             set { _movies = value; }
         }
+
+        public string SearchText { get; set; }
         public MovieView()
         {
             InitializeComponent();
             DataContext = this;
+            SearchText = "Wyszukaj film...";
         }
 
         private async void UserControl_Loaded(object sender, RoutedEventArgs e)
@@ -46,9 +49,28 @@ namespace MediaCornerWPF.View
             MessageBox.Show("Dodano do listy!");
         }
 
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        public async void searchClick(object sender, RoutedEventArgs e)
         {
-            // Your logic here
+            _movies.Clear();
+
+            if(SearchText == "Wyszukaj film..." || SearchText == "" )
+            {
+                var ll = await MovieController.GetPopular();
+
+                foreach (MovieModel movie in ll)
+                {
+                    _movies.Add(movie);
+                }
+            } 
+            else
+            {
+                var ll = await MovieController.SearchMovie(SearchText);
+
+                foreach (MovieModel movie in ll)
+                {
+                    _movies.Add(movie);
+                }
+            }            
         }
     }
 }

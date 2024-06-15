@@ -33,14 +33,19 @@ namespace MediaCornerWPF.Lib.MongoDB
         {
             var user = UsersCollection.Find(x => x.username == username && x.password == password).FirstOrDefault();
 
-            Debug.WriteLine(user.username);
-
             if (user != null)
             {
                 LoggedUser.InitUser(user._id.ToString(), user.username, user.password);
                 return true;
             }
             return false;
+        }
+
+        public static string GetUsername(string UserId)
+        {
+            var user = UsersCollection.Find(x => x._id.ToString() == UserId).FirstOrDefault();
+
+            return user.username;
         }
 
         public static void AddToWatchlist(string userId, int movieId)
@@ -75,6 +80,13 @@ namespace MediaCornerWPF.Lib.MongoDB
         public static List<WatchlistedModel> GetWatchlist(string userId)
         {
             var watchlist = WatchlistCollection.Find(x => x.UsersId == userId).ToList();
+
+            return watchlist;
+        }
+
+        public static List<WatchlistedModel> GetOthersWatchlist(string userId)
+        {
+            var watchlist = WatchlistCollection.Find(x => x.UsersId != userId).ToList();
 
             return watchlist;
         }
