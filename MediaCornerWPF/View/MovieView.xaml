@@ -36,7 +36,7 @@
                              BorderBrush="{StaticResource plainTextColor3}"
                              BorderThickness="0,0,0,1"                             
                              VerticalContentAlignment="Center"
-                             Margin="5,5,0,0" TextChanged="TextBox_TextChanged"></TextBox>
+                             Margin="5,5,0,0"></TextBox>
             </StackPanel>
             <Button Grid.Column="1"
                             Click="searchClick"                           
